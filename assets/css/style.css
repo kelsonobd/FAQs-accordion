@@ -50,10 +50,12 @@ header {
     flex-direction: column;
     
     
+    
 }
 .itens .item{
     border-bottom: 1px solid rgb(229, 223, 223);
     margin-bottom: 25px;
+    
 }
 
 .item:last-child{
@@ -63,9 +65,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+    
    
 }
 
+.itens .item .itemTitle .plus,
+.minus{
+    cursor: pointer;
+
+}
 /* div with title, image and paragraph */
 .itens .item .itemTitle{
     font-size: 14px;
@@ -79,13 +88,28 @@ header {
 
 /* image icon minus */
 .itens .item .itemTitle .minus{
-    display: none;
+    display: ;
 }
 
 .itens .item  p{
     font-size: 15px;
-    visibility: hidden;
+    
     color: #a49da4;
     margin: 0px;
     
+}
+
+
+
+.imagePM{
+ display: flex;
+align-items: end;
+background-color: aqua;
+
+
+}
+
+
+.hidden{
+    display: none;
 }
