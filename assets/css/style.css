@@ -71,6 +71,12 @@ header {
     font-size: 14px;
 }
 
+.itens .item .itemTitle .plus, 
+.minus{
+    cursor: pointer;
+}
+
+
 /* image icon minus */
 .itens .item .itemTitle .minus{
     display: none;
